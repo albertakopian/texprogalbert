@@ -1,4 +1,5 @@
 #!/bin/bash
+
 catalogname=$1
 tarname=$2
 shift
