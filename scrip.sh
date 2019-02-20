@@ -3,9 +3,8 @@ catalogname=$1
 tarname=$2
 shift
 shift
-
 mkdir "$catalogname"
-while [ -n "$1" ]  
+while [ -n "$1" ]
 do
 find $HOME -iname "*$1" -print0 |
 while read -d $'\0' file
